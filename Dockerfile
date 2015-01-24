@@ -21,4 +21,4 @@ EXPOSE 29015
 WORKDIR /data
 VOLUME /data
 
-CMD /opt/rethinkdb/rethinkdb
+CMD /opt/rethinkdb/rethinkdb --bind all
